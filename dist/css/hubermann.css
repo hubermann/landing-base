@@ -1,0 +1,145 @@
+/*
+Gabriel Hubermann
+hubermann@gmail.com 
+hubermann.com
+2016
+*/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #313131;
+    line-height: 28px;
+    overflow-x: hidden !important;
+    margin: auto !important;
+}
+
+
+/* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+a {
+    -webkit-transition: all ease 0.25s;
+            transition: all ease 0.25s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: inherit;
+}
+
+
+/* Other fixes*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+ul,
+ol {
+    padding-left: 0 !important;
+}
+
+li {
+    list-style: none;
+}
+
+section{padding: 3em 0;}
+
+/* Headings */
+
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.75rem;
+    line-height: 4.688rem;
+}
+
+h2 {
+    font-size: 3.125rem;
+    line-height: 4.063rem;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text1 {
+    font-size: 3.75rem;
+    line-height: 4.688rem;
+}
+
+.text2 {
+    font-size: 3.125rem;
+    line-height: 4.063rem;
+}
+
+.text3 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.text4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.text5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Buttons */
